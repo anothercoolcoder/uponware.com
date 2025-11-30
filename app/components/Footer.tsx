@@ -12,17 +12,6 @@ export default function Footer() {
               Líderes en soluciones tecnológicas innovadoras que combinan educación STEM, desarrollo espacial 
               y transformación digital para impulsar el futuro de Latinoamérica.
             </p>
-            <div className="flex space-x-4 mt-4">
-              {['Inicio', 'Servicios', 'Nosotros', 'Contacto'].map((item) => (
-                <Link 
-                  key={item}
-                  href={`/${item.toLowerCase()}`} 
-                  className="text-gray-400 hover:text-white transition duration-200 text-sm"
-                >
-                  {item}
-                </Link>
-              ))}
-            </div>
           </div>
 
           {/* Contacto rápido */}
