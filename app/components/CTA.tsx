@@ -10,7 +10,7 @@ export default function CTA() {
         </p>
         <Link 
           href="/contacto"
-          className="bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-200 inline-block"
+          className="text-white hover:bg-white hover:text-black px-8 py-2 rounded-md text-sm font-medium transition duration-200"
         >
           Conecta con nosotros
         </Link>
